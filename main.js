@@ -26,7 +26,7 @@ const playGame = () => {
     diceImage2.setAttribute("src", `./dice_num_${diceB}-removebg-preview.png`);
 
     // dice total number
-    totalSum.innerText = `= ${sum} =`;
+    totalSum.innerText = `Total : ${sum}`;
 
     
     
@@ -54,10 +54,10 @@ const playGame = () => {
     }
 
 
-    if (Count > 2) {
-        result.innerText = "🌟 You are a Lucky Star! 🌟";
-        result.style.color = "gold"; 
-    }
+    // if (Count > 2) {
+    //     result.innerText = "🌟 You are a Lucky Star! 🌟";
+    //     result.style.color = "gold"; 
+    // }
 
 
 

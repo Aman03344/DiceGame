@@ -49,4 +49,10 @@
   .stats {
       font-size: 1rem;
   }
+
+  #fancyCursor{
+    display: none;
+  }
+
+
 }
