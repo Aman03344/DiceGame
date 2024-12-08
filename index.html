@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+    <div id="fancyCursor"></div>
+
+    <!-- Falling Stars -->
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <!-- <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div> -->
+
+    <!-- Dice Game Container -->
+    <div class="container" >
+        <div class="img-section">
+            <img src="./dice logo image.png" alt="Dice Logo" class="logo">
+        </div>
+        <div class="game-con" >
+            <h1 class="game-title">Dice Game</h1>
+            
+            <div class="dice-con"  style="display: none;"> 
+                <div class="dice" id="diceOne">
+                    <img />
+                </div>
+
+                <h1 id="total-sum" class="total-sum">= 3 =</h1>
+
+                <div class="dice" id="diceTwo">
+                    <img />
+                </div>
+                <h1 id="result" class="result">Result</h1>
+            </div>
+            <div class="btn-con">
+
+                
+                <button id="playbtn" class="play-button"><i class="ri-play-large-fill"></i></button>
+
+            </div>
+            <!-- <div id="stats" class="stats">
+                <p>Wins: <span id="wins">0</span></p>
+                <p>Losses: <span id="losses">0</span></p>
+                <p>Win Percentage: <span id="winPercentage">0</span>%</p>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

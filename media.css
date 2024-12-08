@@ -1,0 +1,52 @@
+@media (max-width: 480px) {
+  .container {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .img-section {
+      width: 100%;
+      padding: 20px;
+  }
+
+  .img-section .logo {
+      width: 50%;
+  }
+
+  .game-con {
+      width: 100%;
+      padding: 20px;
+      align-items: center;
+  }
+
+  .game-titel {
+      font-size: 1.5rem;
+      text-align: center;
+  }
+
+  .dice img {
+      width: 50px;
+  }
+
+  .total-sum {
+      font-size: 1.5rem;
+      text-align: center;
+  }
+
+  .play-button {
+      height: 50px;
+      width: 50px;
+      font-size: 1.5rem;
+  }
+
+  .result {
+      font-size: 1.2rem;
+      text-align: center;
+  }
+
+  .stats {
+      font-size: 1rem;
+  }
+}
