@@ -1,9 +1,11 @@
 @media (max-width: 480px) {
   .container {
       width: 100%;
+      height: auto;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      padding-bottom: 20px;
   }
 
   .img-section {
@@ -17,6 +19,7 @@
 
   .game-con {
       width: 100%;
+      height: auto;
       padding: 20px;
       align-items: center;
   }
@@ -53,6 +56,12 @@
   #fancyCursor{
     display: none;
   }
+  .btn-con{
+    width: 100%;
+    height: auto;
+  }
+
+
 
 
 }

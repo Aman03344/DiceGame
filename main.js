@@ -12,7 +12,8 @@ const rollDice = () => {
     return Math.floor(Math.random() * 6) + 1;
 };
 
-const playGame = () => {
+const playGame = (e) => {
+    e.preventDefault();
     let diceA = rollDice();
     let diceB = rollDice();
     let sum = diceA + diceB;
